@@ -96,7 +96,7 @@ void serialize(node* root,FILE *fp) {
 
 What if the bt is a normal one having none
 of the above properties. In that case we
-have two cases:
+have the following two cases:
 
 a: storing the preorder/postorder and inorder 
 traversals which will require twice the space 
